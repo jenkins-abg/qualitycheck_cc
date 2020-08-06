@@ -31,7 +31,7 @@ IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 	)else (
 		ECHO Connected...
 		::Targeting dir of gitLocalRepo
-		git clone https://github.com/jenkins-abg/TestRepo.git GitLocalRepo
+		git clone https://github.com/jenkins-abg/qualitycheck_cc GitLocalRepo
 		ECHO Success!
 	)
 	pause
