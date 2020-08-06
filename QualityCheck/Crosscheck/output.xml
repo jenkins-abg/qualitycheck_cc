@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+<xsl:template match="/">
+  <html>
+  <body>
+    <p align="center">Transforming XML file using XSL</p>
+    <p></p>
+    <table border="2" align="center" bgcolor="#E0E0E0">
+      <tr>
+        <th>Status</th>
+        <th>FileName</th>
+        <th>Error</th>
+      </tr>
+      <xsl:for-each select="TABLE/CLASS">
+      <tr>
+        <td><xsl:value-of select="Status"/></td>
+        <td><xsl:value-of select="FileName"/></td>
+        <td><xsl:value-of select="Error"/></td>
+      </tr>
+      </xsl:for-each>
+    </table>
+  </body>
+  </html>
