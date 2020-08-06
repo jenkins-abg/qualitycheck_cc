@@ -23,7 +23,6 @@ IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 		git status
 		git add .
 		git commit -F C:\work\commitMsg.txt
-		git fetch --all
 		git push -u origin master
 		ECHO Success!
 	)

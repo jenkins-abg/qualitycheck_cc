@@ -1,3 +1,8 @@
 editor 1 edit this line
 editor 3 edit this line
+<<<<<<< HEAD
 editor 2 edit this line
+=======
+
+editor 4 edit this line
+>>>>>>> bc8de6abc43e7469c7a97d400c49c8067bf4077a

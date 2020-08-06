@@ -21,6 +21,7 @@ IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 		cd "C:\work\GitLocalRepo"
 		git init
 		git status
+		git fetch --all
 		git pull origin master
 		ECHO Success!
 	)
